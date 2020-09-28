@@ -62,16 +62,7 @@ import 'firebase/firestore' // <- needed if using firestore
 import { createFirestoreInstance } from 'redux-firestore' // <- needed if using firestore
 import store from '../redux/store';
 
-const firebaseConfig = {
-    apiKey: "AIzaSyBbPlpLlnpGYwH_pQbDreuxdZUNOEJVBEs",
-    authDomain: "fir-e2ff3.firebaseapp.com",
-    databaseURL: "https://fir-e2ff3.firebaseio.com",
-    projectId: "fir-e2ff3",
-    storageBucket: "fir-e2ff3.appspot.com",
-    messagingSenderId: "818044498841",
-    appId: "1:818044498841:web:9d78b78c2f0a9359d45908",
-    measurementId: "G-QHRCQZ3BBD"
-}
+const firebaseConfig = {}
 
 // react-redux-firebase config
 const rrfConfig = {
